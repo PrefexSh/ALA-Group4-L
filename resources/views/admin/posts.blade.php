@@ -9,7 +9,11 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <x-forms.tinymce-editor/>
+                    <form>
+                        <input class="shadow-sm sm:rounded-lg bg-white border-b border-gray-200 mb-4" name="title" placeholder="Title">
+                        <x-forms.tinymce-editor/>
+                        <input class="mt-4 hover:bg-gray-100 active:bg-gray-900" type="submit"/>
+                    </form>
                 </div>
             </div>
         </div>

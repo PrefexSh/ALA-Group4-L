@@ -27,5 +27,6 @@ Route::get('/admin/posts', function () {
 })->middleware(['auth'])->name('admin.posts');
 
 require __DIR__.'/auth.php';
+require __DIR__.'/posts.php';
 
 
