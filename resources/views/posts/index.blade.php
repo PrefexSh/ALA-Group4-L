@@ -29,7 +29,7 @@
             <tr>
                 <td>{{ ++$i }}</td>
                 <td>{{ $value->title }}</td>
-                <td>{{ \Str::limit($value->body, 100) }}</td>
+                <td>{!! \Str::limit($value->body, 100) !!}</td>
                 <td>
                     <form action="{{ route('posts.destroy',$value->id) }}" method="POST">
                         <a class="btn btn-info" href="{{ route('posts.show',$value->id) }}">Show</a>

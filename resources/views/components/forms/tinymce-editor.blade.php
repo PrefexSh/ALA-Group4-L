@@ -1,3 +1,1 @@
-<form method="post">
-    <textarea id="myeditorinstance">Hello, World!</textarea>
-</form>
+<textarea id="myeditorinstance" class="form-control" name="body" placeholder="Enter Description">Hello, World!</textarea>

@@ -36,7 +36,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Body:</strong>
-                    <textarea class="form-control" style="height:150px" name="body" placeholder="Enter Description"></textarea>
+                    <x-forms.tinymce-editor></x-forms.tinymce-editor>
+                    <!--<textarea  style="height:150px" ></textarea>-->
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
