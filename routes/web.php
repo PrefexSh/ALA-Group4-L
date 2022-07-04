@@ -17,6 +17,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dist.index');
 });
+Route::get('/cursussen', function () {
+    return view('dist.Cursussen');
+});
+Route::get('/basiscursus', function () {
+    return view('dist.Basiscursus');
+});
+Route::get('/bijscholing', function () {
+    return view('dist.Bijscholing');
+});
+Route::get('/cursusblog', function () {
+    return view('dist.Cursusblog');
+});
 
 
 Route::get('/admin', function () {

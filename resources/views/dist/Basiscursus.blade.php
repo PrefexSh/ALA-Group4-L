@@ -6,7 +6,7 @@
   <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
   <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Welcome To Cleopatra</title>
+  <title>Welcome To</title>
 </head>
 <body class="bg-gray-100">
 
@@ -16,8 +16,6 @@
 
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
-      <img src="img/logo.png" class="w-10 flex-none">
-      <strong class="capitalize ml-1 flex-1">cleopatra</strong>
 
       <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
         <i class="fad fa-list-ul"></i>

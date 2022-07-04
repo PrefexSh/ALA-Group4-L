@@ -1,6 +1,9 @@
 @extends('posts.layout')
 
 @section('content')
+    <!-- Session Status -->
+    <x-auth-session-status class="mb-4" :status="session('status')" />
+
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -37,7 +40,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Body:</strong>
-                    <textarea class="form-control" style="height:150px" name="body" placeholder="Detail">{{ $post->body }}</textarea>
+                    <x-forms.tinymce-editor>@section('tcontent'){{ $post->body }}@endsection</x-forms.tinymce-editor>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

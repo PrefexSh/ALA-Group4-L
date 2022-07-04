@@ -10,7 +10,9 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     Possible actions:<br>
-                    <a href="{{ url('admin/posts') }}" style="color: dodgerblue;">Menage Posts</a>
+                    <a href="{{ url('admin/posts') }}" style="color: dodgerblue;">Menage Posts</a><br>
+                    <a href="{{ route('posts.index') }}" style="color: dodgerblue;">Delete Posts</a><br>
+                    <a href="{{ route('posts.index') }}" style="color: dodgerblue;">Show Posts</a>
                 </div>
             </div>
         </div>
