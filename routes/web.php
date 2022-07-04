@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('dist.index');
 });
 
+
 Route::get('/admin', function () {
     return view('admin.admin');
 })->middleware(['auth'])->name('admin');
