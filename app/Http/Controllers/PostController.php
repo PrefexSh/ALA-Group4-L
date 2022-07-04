@@ -27,7 +27,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('posts.create');
+        return view('admin.posts');
     }
 
     /**
@@ -82,7 +82,7 @@ class PostController extends Controller
     {
         $request->validate([
             'title' => 'required',
-            'description' => 'required',
+            'body' => 'required',
         ]);
 
         $post->update($request->all());
