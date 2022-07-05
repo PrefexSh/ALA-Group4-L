@@ -121,11 +121,11 @@
 
               <div class="flex-1 flex flex-rowbg-green-100">
                 <div class="flex-1">
-                  <h1 class="text-sm font-semibold">mohamed..</h1>
+                  <h1 class="text-sm font-semibold">placeholder ..</h1>
                   <p class="text-xs text-gray-500">text here also</p>
                 </div>
                 <div class="text-right text-xs text-gray-500">
-                  <p>78 min ago</p>
+                  <p>place holder</p>
                 </div>
               </div>
 
@@ -163,11 +163,11 @@
 
               <div class="flex-1 flex flex-rowbg-green-100">
                 <div class="flex-1">
-                  <h1 class="text-sm font-semibold">time is up..</h1>
-                  <p class="text-xs text-gray-500">text here also</p>
+                  <h1 class="text-sm font-semibold">place holder</h1>
+                  <p class="text-xs text-gray-500">placeholder</p>
                 </div>
                 <div class="text-right text-xs text-gray-500">
-                  <p>1 min ago</p>
+                  <p>lorum ipsom</p>
                 </div>
               </div>
 
@@ -218,7 +218,7 @@
 
               <div class="flex-1 flex flex-rowbg-green-100">
                 <div class="flex-1">
-                  <h1 class="text-sm font-semibold">mohamed said</h1>
+                  <h1 class="text-sm font-semibold">lorum ipsom said</h1>
                   <p class="text-xs text-gray-500">yeah i know</p>
                 </div>
                 <div class="text-right text-xs text-gray-500">
@@ -307,29 +307,26 @@
 
       <!-- end sidebar toggle -->
 
-      <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">homes</p>
+      <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
       <!-- link -->
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
+        <a href="./Artikelen.blade.php"class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Imkervereneging </i>
+        </a >
+        <a href="./Artikelen.blade.php" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Artikelen             </i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Nieuws achief</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursussen</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Voor Imkers</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
-        </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
-        </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursusblog</i>
+            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Contact</i>
         </a>
 
 
