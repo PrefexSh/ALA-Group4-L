@@ -18,7 +18,7 @@
 
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
-      <img src="{{ asset('img/dollbij.gif') }}" class="w-10 flex-none">
+      <img src="{{ asset('img/BeeExplorer.png') }}" class="w-10 flex-none">
       <strong class="capitalize ml-1 flex-1">imkershop</strong>
 
       <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
@@ -310,23 +310,23 @@
       <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
       <!-- link -->
-        <a href="./Artikelen.blade.php"class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Imkervereneging </i>
+        <a href="{{ url('Artikelen') }}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging </i> // ik ga dit even op een andere manier doen want dit
         </a >
         <a href="./Artikelen.blade.php" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Artikelen             </i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen             </i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Nieuws achief</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Nieuws achief</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursussen</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Cursussen</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Voor Imkers</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor Imkers</i>
         </a>
         <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Contact</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
         </a>
 
 
