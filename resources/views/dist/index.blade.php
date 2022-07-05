@@ -310,24 +310,24 @@
       <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
       <!-- link -->
-        <a href="{{ url('Artikelen') }}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging </i> // ik ga dit even op een andere manier doen want dit
-        </a >
-        <a href="./Artikelen.blade.php" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen             </i>
+      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
+      </a>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Nieuws achief</i>
-        </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Cursussen</i>
-        </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor Imkers</i>
-        </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
-        </a>
+      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+      </a>
+      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+      </a>
+      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+      </a>
+      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+      </a>
 
 
     </div>

@@ -30,6 +30,10 @@ Route::get('/cursusblog', function () {
     return view('dist.Cursusblog');
 });
 
+Route::get('/artikelen', function () {
+    return view('dist.Artikelen');
+})->name("artikelen");
+
 
 Route::get('/admin', function () {
     return view('admin.admin');
