@@ -65,6 +65,10 @@ Route::get('/contact', function () {
     return view('dist.Contact');
 })->name("contact");
 
+Route::get('/bijscholing', function () {
+    return view('dist.Bijscholing');
+})->name("bijscholing");
+
 
 Route::get('/admin', function () {
     return view('admin.admin');

@@ -326,6 +326,10 @@ yum
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">terug naar cursus</i>
         </a>
 
+        <a href="{{ route('bijscholing')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
+        </a>
+
         <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
         </a>
