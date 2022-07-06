@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-100">
 
-yum
+
 
 
 <!-- start navbar -->

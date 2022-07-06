@@ -313,6 +313,10 @@
       <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
       <!-- link -->
+      <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
+      </a>
+
       <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
       </a>
@@ -330,9 +334,7 @@
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
       </a>
 
-      <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
-      </a>
+
       </a>
 
 
