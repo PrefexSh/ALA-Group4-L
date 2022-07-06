@@ -30,6 +30,9 @@ Route::get('/cursusblog', function () {
     return view('dist.Cursusblog');
 });
 
+Route::get('/index', function () {
+    return view('dist.index');
+})->name("index");
 Route::get('/cursusen', function () {
     return view('dist.Cursusen');
 })->name("cursusen");
@@ -47,7 +50,7 @@ Route::get('/niewesachief', function () {
 })->name("niewesachief");
 
 Route::get('/voorimkers', function () {
-    return view('dist.vooimkers');
+    return view('dist.Voorimkers');
 })->name("voorimkers");
 
 Route::get('/contact', function () {

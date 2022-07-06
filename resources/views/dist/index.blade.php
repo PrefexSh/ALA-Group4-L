@@ -19,8 +19,8 @@
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
 
-        <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png') }}" class="w-10 fad text-xs mr-2"><strong class="capitalize ml-1 flex-1">imkershop</strong> </i>
+        <a href="{{ route('index')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/debeeexplo.png') }}" class="w-10 fad text-xs mr-2"><strong class="capitalize ml-1 flex-1">imkershop</strong> </i>
 
         </a>
 
@@ -324,7 +324,7 @@
       </a>
 
       <a href="{{ route('voorimkers')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor imkers</i>
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">voor imkers</i>
       </a>
       <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
