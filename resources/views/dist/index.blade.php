@@ -49,7 +49,7 @@
 
           <button class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
             <div class="ml-2 capitalize flex ">
-              <h1 class="text-sm text-gray-800 font-semibold m-0 p-0 leading-none">Admin</h1>
+              <h1 class="text-sm text-gray-800 font-semibold m-0 p-0 leading-none">login</h1>
               <i class="fad fa-chevron-down ml-2 text-xs leading-none"></i>
             </div>
           </button>
@@ -317,16 +317,17 @@
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
         </a>
       <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Niewes achief</i>
       </a>
       <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Cursusen</i>
       </a>
       <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor imkers</i>
       </a>
       <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
+      </a>
       </a>
 
 

@@ -18,7 +18,7 @@
 
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
-        <img src="{{ asset('img/dollbij.gif') }}" class="w-10 flex-none">
+        <img src="{{ asset('img/BeeExplorer.png') }}" class="w-10 flex-none">
         <strong class="capitalize ml-1 flex-1">imkershop</strong>
 
         <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
@@ -49,7 +49,7 @@
 
                 <button class="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
                     <div class="ml-2 capitalize flex ">
-                        <h1 class="text-sm text-gray-800 font-semibold m-0 p-0 leading-none">Admin</h1>
+                        <h1 class="text-sm text-gray-800 font-semibold m-0 p-0 leading-none">login</h1>
                         <i class="fad fa-chevron-down ml-2 text-xs leading-none"></i>
                     </div>
                 </button>
@@ -310,23 +310,24 @@
         <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
         <!-- link -->
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Imkervereneging </i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Artikelen             </i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Nieuws achief</i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Niewes achief</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Cursussen</i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Cursusen</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Voor Imkers</i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor imkers</i>
         </a>
-        <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/BeeExplorer.png    ') }}" class="w-10 fad text-xs mr-2">Contact</i>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
+        </a>
         </a>
 
 
