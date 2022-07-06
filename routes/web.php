@@ -53,6 +53,14 @@ Route::get('/voorimkers', function () {
     return view('dist.Voorimkers');
 })->name("voorimkers");
 
+Route::get('/basiscursus', function () {
+    return view('dist.Basiscursus');
+})->name("basiscursus");
+
+Route::get('/cursusblog', function () {
+    return view('dist.cursusblog');
+})->name("cursusblog");
+
 Route::get('/contact', function () {
     return view('dist.Contact');
 })->name("contact");
