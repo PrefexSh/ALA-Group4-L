@@ -18,8 +18,11 @@
 
     <!-- logo -->
     <div class="flex-none w-56 flex flex-row items-center">
-      <img src="{{ asset('img/BeeExplorer.png') }}" class="w-10 flex-none">
-      <strong class="capitalize ml-1 flex-1">imkershop</strong>
+
+        <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/BeeExplorer.png') }}" class="w-10 fad text-xs mr-2"><strong class="capitalize ml-1 flex-1">imkershop</strong> </i>
+
+        </a>
 
       <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
         <i class="fad fa-list-ul"></i>
@@ -310,28 +313,30 @@
       <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
       <!-- link -->
-      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+      <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
       </a>
-        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
-        </a>
       <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+      </a>
+      <a href="{{ route('niewesachief')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Niewes achief</i>
       </a>
-      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Cursusen</i>
-      </a>
-      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+
+      <a href="{{ route('voorimkers')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor imkers</i>
       </a>
-      <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+      <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
           <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
       </a>
+
+      <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+          <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
+      </a>
       </a>
 
 
-    </div>
+  </div>
     <!-- end sidebar content -->
 
   </div>

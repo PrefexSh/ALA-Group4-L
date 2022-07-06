@@ -30,9 +30,29 @@ Route::get('/cursusblog', function () {
     return view('dist.Cursusblog');
 });
 
+Route::get('/cursusen', function () {
+    return view('dist.Cursusen');
+})->name("cursusen");
+
 Route::get('/artikelen', function () {
     return view('dist.Artikelen');
 })->name("artikelen");
+
+Route::get('/imkervereniging', function () {
+    return view('dist.Imkervereniging');
+})->name("imkervereniging");
+
+Route::get('/niewesachief', function () {
+    return view('dist.Niewesachief');
+})->name("niewesachief");
+
+Route::get('/voorimkers', function () {
+    return view('dist.vooimkers');
+})->name("voorimkers");
+
+Route::get('/contact', function () {
+    return view('dist.Contact');
+})->name("contact");
 
 
 Route::get('/admin', function () {
