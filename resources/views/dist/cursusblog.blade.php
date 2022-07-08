@@ -39,13 +39,13 @@
         .content {
             color: black;
             float: right;
-            margin-left: 450px;
-            margin-top: -0px;
+            margin-left: 240px;
+            margin-top: 0px;
         }
     </style>
 
     <div class="content">
-        <bold style="text-align: center; font-size: 45px;">Basiscursus </bold>
+        <bold style="text-align: center; font-size: 45px;">welcom bij imkershop</bold>
     </div>
     <!-- navbar content -->
     <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
@@ -322,31 +322,33 @@
 
         <!-- end sidebar toggle -->
 
+
         <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
-        <!-- link  dit word op niew gedaan met een image in de content die dient als link-->
-
+        <!-- link -->
         <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
         </a>
 
-        <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">basis cursusen</i>
+        <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
+        </a>
+        <a href="{{ route('artikelen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Artikelen</i>
+        </a>
+        <a href="{{ route('niewesachief')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Niewes achief</i>
         </a>
 
-        <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursus blog</i>
+        <a href="{{ route('voorimkers')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">voor imkers</i>
         </a>
-
-        <a href="{{ route('bijscholing')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">bijscholing</i>
-        </a>
-
         <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
         </a>
-        </a>
 
+
+        </a>
 
     </div>
     <!-- end sidebar content -->
@@ -354,178 +356,91 @@
 
         .conbox{
             margin-left: 300px;
-            margin-top: -320px;
+            margin-top: -470px;
 
 
         }
     </style>
 
 
-    <div class="conbox">
-        <x-guest-layout>
-            <section class="py-12">
-                <article class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="background-color: rgba(240, 199, 86, 0.2);">
-                        <div class="p-6 sm:px-20 bg-white border-b border-gray-200" style="background-color: rgba(235, 189, 52, 0.7);">
 
-                        </div>
-                        <article class="col-6">
-                            <h1 style="font-weight:bold; font-size: 3.5rem; margin-top: 4vh; margin-bottom: 4vh">Basiscursus
-                                bijen houden</h1>
+    <x-guest-layout>
+        <section class="conbox">
+            <article style class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="background-color: rgba(240, 199, 86, 0.2);">
+                    <div class="p-6 sm:px-20 bg-white border-b border-gray-200" style="background-color: rgba(235, 189, 52, 0.7);">
 
-                            <p style="color:black" >Bent U van plan om beginent imker te worden?
-                                and bent U bij Imkershop bij het goede aderes wij bieden cursusen aan van een basiscursus die U klaarstoomt
-                                om begeginend imker te worden het vind plaats Oegstgeest geeft jaarlijks de basiscursus Imkeren.
-                                De cursus bestaat uit 5 theorielessen en 10 praktijklessen.
-                                Theorielessen worden in de avond gegeven van 19:30 tot 21:30 en beginnen in februari.
-                                Praktijklessen zijn gepland op zaterdagmiddag tussen 13:00 tot 16:30 en beginnen in april. Omdat
-                                praktijklessen afhankelijk zijn van het weer, kunnen geplande cursus middagen afwijken.
-                                De cursus wordt afgesloten met een schriftelijk examen, waarna u een diploma krijgt.
-                                Onderstaand is inbegrepen in het cursusgeld en wordt bij de eerste les uitgerekend:<br><br>
-
-
-                            <ul style="list-style-type:disc;">
-                                <li>Het lesboek</li>
-                                <li>Het praktijkboek</li>
-                            </ul>
-                            <br>
-                            basiscursus 2022
-                            Tijdens het jaar waarin u de cursus volgt, krijgt u gratis het lidmaatschap van de NBV aangeboden en
-                            ontvangt u maandelijks het blad Bijenhouden.
-                            De cursuskosten bedragen € 200,- per deelnemer. Het maximum aantal deelnemers is 12 per cursus. Bij meer
-                            aanmeldingen dan beschikbare plaatsen, geldt de volgorde van aanmelding, u wordt hier over
-                            geïnformeerd.</p>
-                        </article>
-                        <style>
-                            .pic1{float: right;}
-
-
-                            .pic2{
-
-                                float: right;
-                                margin-top: 320px;
-                                margin-right: -400px;
-
-
-
-                            }
-                        </style>
-                        <article class="col-6">
-                            <div class="pic1" style="width: 25rem;">
-                                <img src="img/curses1.png" alt="Basiscursus 2013" width="500" height="600"
-                                     style="border-radius: 1vh;">
-                                <div class="card-body">
-                                    <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
-                                </div>
-                            </div>
-
-                            <div class="pic2" style="width: 25rem;">
-                                <img src="img/curses2.png" alt="Basiscursus 2022" width="500" height="600"
-                                     style="border-radius: 1vh;">
-                                <div class="card-body">
-                                    <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                                Inschrijven</h1>
-                            <p style="color: black">N.B.V de cursus 2022 is vol geboekt.<br> Nieuwe aanmeldingen automatis geplaats op de wacht lijst
-                                geplaatst.</p><br>
-                            <p style="color:black">
-                                zodra U zich heeft fingeschreven voor de cursus krijt U automatis <br> een bericht ter bevesteging
-                                niet en heeft
-
-                                Als U geen bericht heeft ont vangen neem dan contact op met onze support team
-                                <a style="color: orange"
-                                   href="https://www.topdesk.com/nl/features/incident-management-software/">support team</a>.<br><br>
-                                Inschrijving cursus 2023
-                            </p>
-                        </article>
-                        <form action="/action_page.php">
-                            <div class="mb-3 mt-3">
-                                <input type="text" class="form-control" id="achternaam" placeholder="achternaam"
-                                       name="achternaam">
-                            </div>
-                            <div class="mb-3 mt-3">
-                                <input type="email" class="form-control" id="email" placeholder="e-mail" name="email">
-                            </div>
-                            <div class="mb-3 mt-3">
-                                <input type="text" class="form-control" id="postcode" placeholder="postcode" name="postcode">
-                            </div>
-                            <div class="mb-3 mt-3">
-                                <input type="text" class="form-control" id="adres" placeholder="adres" name="adres">
-                            </div>
-                            <div class="mb-3 mt-3">
-                                <input type="text" class="form-control" id="woonplaats" placeholder="woonplaats"
-                                       name="woonplaats">
-                            </div>
-                            <div class="mb-3 mt-3">
-                                <input type="tel" class="form-control" id="tel" placeholder="031+" name="tel"
-                                       pattern="[0-9]{2}-[0-9]{8}">
-                            </div>
-                            <div class="mb-3 mt-3">
-
-                                <style>
-                                    .btn {
-                                        display: inline-block;
-                                        text-align: center;
-                                        text-decoration: none;
-                                        vertical-align: middle;
-                                        user-select: none;
-                                        padding: 0.375rem 2rem;
-
-                                        --btn-raise: 1rem;
-                                        clip-path: polygon(var(--btn-raise) 0%, calc(100% - var(--btn-raise)) 0%, 100% 50%, calc(100% - var(--btn-raise)) 100%, var(--btn-raise) 100%, 0 50%);
-                                        background-color: #fefd64;
-                                        text-transform: uppercase;
-                                    }
-                                </style>
-
-                                <textarea name="opmerkingen" placeholder="Opmerkingen" form="usrform">
-                    </textarea>
-                            </div>
-                            <p style="color:black">Ik ben lid van het NBV</p>
-                            <input type="radio" id="lid" name="lid" value="ja">
-                            <label for="ja">Ja</label><br>
-                            <input type="radio" id="lid" name="lid" value="nee">
-                            <label for="nee">Nee</label><br>
-                            <br>
-                            <button type="submit" class="btn">Verzenden</button>
-                        </form>
-                        <p style="color:black"><br>
-                            LET OP!De inschrijving is definitief a betaling kan het niet meer veranderen <br>
-                            en kunt u uw geld niet meer terug vragen.<br><br>
-
-                            mocht U veder nog vragen hebben stel ze gerust aan
-                            ons <a style="color: darkblue"href="{{ route('contact')}}" >contact</a>
-                            op.</p>
                     </div>
-                </article>
-            </section>
+                    <article class="col-6">
+                        <h1 style="font-weight:bold; font-size: 3.3rem; margin-top: 0vh; margin-bottom: 0vh">Over imkershop
+                        </h1>
 
-        </x-guest-layout>
-    </div>
-    <!-- end sidbar -->
+                        <p style="color:black" >De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Kaag en Braassem. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.<br><br>
+                        </p>
+                    </article>
+                    <style>
+                        .pic1{float: right;
+                            border-radius: 4px;
+                            padding: 5px;
+                            width: 150px;
 
-    <!-- strat content -->
-    <div class="bg-gray-100 flex-1 p-6 md:mt-16">
-
-
-        <!-- General Report -->
-
-
-
-        <!-- card -->
-
-
-
-
+                        }
+                    </style>
+                    <article class="col-6">
+                        <div class="pic1" style="width: 25rem;">
+                            <img src="img/debij.jpg" alt="Basiscursus 2013" width="450" height="450"
+                                 style="border-radius: 1vh;">
+                            <div class="card-body">
+                                <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
+                            </div>
+                        </div>
 
 
 
-    </div>
-    <!-- end quick Info -->
+                    </article>
+                    <article>
+                        <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                            Onze activiteiten</h1>
+                        <ul class="lijst">
+                            <li>het geven van cursussen over het houden van bijen (zie de pagina ‘<a href="https://www.imkervereniging-oegstgeest.nl/basiscursus-bijenhouden/">basiscursus</a>‘)</li>
+                            <li>het organiseren van lezingen op informatieavonden voor de beginnende imkers</li>
+                            <li>wij stellen beginnende imkers in de gelegenheid om informatie te krijgen van ervaren imkers tijdens informatieavonden en ochtenden, zoals ‘de imkerhoek’</li>
+                            <li>wij versturen&nbsp; interessante artikelen over het houden van bijen (zie de pagina <a href="https://www.imkervereniging-oegstgeest.nl/informatie/">artikelen</a>)</li>
+                        </ul></p>
+                    </article><br><br>
+
+                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                        Wat te doen bij een bijenzwerm of hommelnest?</h1><br>
+                    <p style="color:black;">
+                        Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doen.
+                    </p>
+                    <a style="color:darkblue;" href="https://www.imkervereniging-oegstgeest.nl/bijenzwerm-hommelnest/">Lees dan verder</a>
+                </div>
+            </article>
+        </section>
+
+    </x-guest-layout>
+</div>
+<!-- end sidbar -->
+
+<!-- strat content -->
+<div class="bg-gray-100 flex-1 p-6 md:mt-16">
+
+
+    <!-- General Report -->
+
+
+
+    <!-- card -->
+
+
+
+
+
+
+
+</div>
+<!-- end quick Info -->
 
 
 </div>
