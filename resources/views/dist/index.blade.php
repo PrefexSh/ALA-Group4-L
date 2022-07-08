@@ -39,8 +39,8 @@
         .content {
             color: black;
             float: right;
-            margin-left: 450px;
-            margin-top: -0px;
+            margin-left: 240px;
+            margin-top: 0px;
         }
     </style>
 
@@ -366,14 +366,14 @@
     <div class="conbox">
         <x-guest-layout>
             <section class="py-12">
-                <article class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <article style class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="background-color: rgba(240, 199, 86, 0.2);">
                         <div class="p-6 sm:px-20 bg-white border-b border-gray-200" style="background-color: rgba(235, 189, 52, 0.7);">
 
                         </div>
                         <article class="col-6">
-                            <h1 style="font-weight:bold; font-size: 3.5rem; margin-top: 4vh; margin-bottom: 4vh">Over imkershop
-                                Het houden van bijen:</h1>
+                            <h1 style="font-weight:bold; font-size: 3.3rem; margin-top: 0vh; margin-bottom: 0vh">Over imkershop
+                            </h1>
 
                             <p style="color:black" >De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Kaag en Braassem. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.<br><br>
                             </p>
