@@ -35,7 +35,18 @@
         <i class="fad fa-chevron-double-down"></i>
     </button>
     <!-- end navbar content toggle -->
+    <style>
+        .content {
+            color: black;
+            float: right;
+            margin-left: 240px;
+            margin-top: 0px;
+        }
+    </style>
 
+    <div class="content">
+        <bold style="text-align: center; font-size: 45px;">Contact</bold>
+    </div>
     <!-- navbar content -->
     <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
         <!-- left -->
@@ -94,6 +105,7 @@
 
                     <!-- body -->
 
+
                     <!-- item -->
                     <a class="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
@@ -107,7 +119,7 @@
                                 <p class="text-xs text-gray-500">text here also</p>
                             </div>
                             <div class="text-right text-xs text-gray-500">
-                                <p>4 min ago</p>
+                                <p style="color:black">4 min ago</p>
                             </div>
                         </div>
 
@@ -310,9 +322,14 @@
 
         <!-- end sidebar toggle -->
 
+
         <p class="uppercase text-xs text-gray-600 mb-4 tracking-wider">Paginas</p>
 
         <!-- link -->
+        <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
+        </a>
+
         <a href="{{ route('imkervereniging')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Imkervereneging</i>
         </a>
@@ -324,21 +341,85 @@
         </a>
 
         <a href="{{ route('voorimkers')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Voor imkers</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">voor imkers</i>
         </a>
         <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
             <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Contact</i>
         </a>
 
-        <a href="{{ route('cursusen')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">cursusen</i>
-        </a>
-        </a>
 
+        </a>
 
     </div>
     <!-- end sidebar content -->
+    <style>
 
+        .conbox{
+            margin-left: 300px;
+            margin-top: -470px;
+
+
+        }
+    </style>
+
+
+
+    <x-guest-layout>
+        <section class="conbox">
+            <article style class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="background-color: rgba(240, 199, 86, 0.2);">
+                    <div class="p-6 sm:px-20 bg-white border-b border-gray-200" style="background-color: rgba(235, 189, 52, 0.7);">
+
+                    </div>
+                    <article class="col-6">
+                        <h1 style="font-weight:bold; font-size: 3.3rem; margin-top: 0vh; margin-bottom: 0vh">Over imkershop
+                        </h1>
+
+                        <p style="color:black" >De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Kaag en Braassem. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.<br><br>
+                        </p>
+                    </article>
+                    <style>
+                        .pic1{float: right;
+                            border-radius: 4px;
+                            padding: 5px;
+                            width: 150px;
+
+                        }
+                    </style>
+                    <article class="col-6">
+                        <div class="pic1" style="width: 25rem;">
+                            <img src="img/debij.jpg" alt="Basiscursus 2013" width="450" height="450"
+                                 style="border-radius: 1vh;">
+                            <div class="card-body">
+                                <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
+                            </div>
+                        </div>
+
+
+
+                    </article>
+                    <article>
+                        <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                            Onze activiteiten</h1>
+                        <ul class="lijst">
+                            <li>het geven van cursussen over het houden van bijen (zie de pagina ‘<a href="https://www.imkervereniging-oegstgeest.nl/basiscursus-bijenhouden/">basiscursus</a>‘)</li>
+                            <li>het organiseren van lezingen op informatieavonden voor de beginnende imkers</li>
+                            <li>wij stellen beginnende imkers in de gelegenheid om informatie te krijgen van ervaren imkers tijdens informatieavonden en ochtenden, zoals ‘de imkerhoek’</li>
+                            <li>wij versturen&nbsp; interessante artikelen over het houden van bijen (zie de pagina <a href="https://www.imkervereniging-oegstgeest.nl/informatie/">artikelen</a>)</li>
+                        </ul></p>
+                    </article><br><br>
+
+                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                        Wat te doen bij een bijenzwerm of hommelnest?</h1><br>
+                    <p style="color:black;">
+                        Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doen.
+                    </p>
+                    <a style="color:darkblue;" href="https://www.imkervereniging-oegstgeest.nl/bijenzwerm-hommelnest/">Lees dan verder</a>
+                </div>
+            </article>
+        </section>
+
+    </x-guest-layout>
 </div>
 <!-- end sidbar -->
 
@@ -347,19 +428,19 @@
 
 
     <!-- General Report -->
-    <div class="grid grid-cols-4 gap-6 xl:grid-cols-1">
-
-
-        <!-- card -->
 
 
 
+    <!-- card -->
 
 
 
 
-    </div>
-    <!-- end quick Info -->
+
+
+
+</div>
+<!-- end quick Info -->
 
 
 </div>
