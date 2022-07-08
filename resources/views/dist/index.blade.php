@@ -356,16 +356,16 @@
 
         .conbox{
             margin-left: 300px;
-            margin-top: -320px;
+            margin-top: -470px;
 
 
         }
     </style>
 
 
-    <div class="conbox">
+
         <x-guest-layout>
-            <section class="py-12">
+            <section class="conbox">
                 <article style class="row max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="background-color: rgba(240, 199, 86, 0.2);">
                         <div class="p-6 sm:px-20 bg-white border-b border-gray-200" style="background-color: rgba(235, 189, 52, 0.7);">
