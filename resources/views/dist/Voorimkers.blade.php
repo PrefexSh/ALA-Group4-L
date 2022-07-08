@@ -42,10 +42,15 @@
             margin-left: 240px;
             margin-top: 0px;
         }
+
+        p{
+            color: black;
+
+        }
     </style>
 
     <div class="content">
-        <bold style="text-align: center; font-size: 45px;">welcom bij imkershop</bold>
+        <bold style="text-align: center; font-size: 45px;">Voor imkers</bold>
     </div>
     <!-- navbar content -->
     <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
@@ -400,17 +405,20 @@
                     </article>
                     <article>
                         <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                            Onze activiteiten</h1>
-                        <ul class="lijst">
-                            <li>het geven van cursussen over het houden van bijen (zie de pagina ‘<a href="https://www.imkervereniging-oegstgeest.nl/basiscursus-bijenhouden/">basiscursus</a>‘)</li>
-                            <li>het organiseren van lezingen op informatieavonden voor de beginnende imkers</li>
-                            <li>wij stellen beginnende imkers in de gelegenheid om informatie te krijgen van ervaren imkers tijdens informatieavonden en ochtenden, zoals ‘de imkerhoek’</li>
-                            <li>wij versturen&nbsp; interessante artikelen over het houden van bijen (zie de pagina <a href="https://www.imkervereniging-oegstgeest.nl/informatie/">artikelen</a>)</li>
-                        </ul></p>
+                            Voor imkerbenodigdheden</h1>
+                        <p >Voor imkerbenodigdheden in de regio Zuid-Holland bestaat Het “Bijenhuis”-depot van de Imkersvereniging Leiden e.o. </p>
+
+
+
+                        <p style = "color: darkblue;"><a href="https://www.imkervereniging-oegstgeest.nl/wp-content/uploads/2019/02/Flyer_depot_v3.pdf">bijlage</a></p>
+
+
+
+                        <p><br></p>
                     </article><br><br>
 
                     <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                        Wat te doen bij een bijenzwerm of hommelnest?</h1><br>
+                        bijenzwerm/hommelnest?</h1><br>
                     <p style="color:black;">
                         Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doen.
                     </p>
