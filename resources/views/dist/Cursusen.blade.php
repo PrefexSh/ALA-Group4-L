@@ -227,9 +227,6 @@
                     <!-- item -->
                     <a class="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
-                        <div class="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                            <img class="w-full h-full object-cover" src="img/user1.jpg" alt="">
-                        </div>
 
                         <div class="flex-1 flex flex-rowbg-green-100">
                             <div class="flex-1">
@@ -386,35 +383,23 @@
 
                         }
                     </style>
-                    <article class="col-6">
-                        <div class="pic1" style="width: 25rem;">
-                            <img src="img/debij.jpg" alt="Basiscursus 2013" width="450" height="450"
-                                 style="border-radius: 1vh;">
-                            <div class="card-body">
-                                <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
-                            </div>
-                        </div>
 
-
-
-                    </article>
                     <article>
                         <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                            Onze activiteiten</h1>
-                        <ul class="lijst">
-                            <li>het geven van cursussen over het houden van bijen (zie de pagina ‘<a href="https://www.imkervereniging-oegstgeest.nl/basiscursus-bijenhouden/">basiscursus</a>‘)</li>
-                            <li>het organiseren van lezingen op informatieavonden voor de beginnende imkers</li>
-                            <li>wij stellen beginnende imkers in de gelegenheid om informatie te krijgen van ervaren imkers tijdens informatieavonden en ochtenden, zoals ‘de imkerhoek’</li>
-                            <li>wij versturen&nbsp; interessante artikelen over het houden van bijen (zie de pagina <a href="https://www.imkervereniging-oegstgeest.nl/informatie/">artikelen</a>)</li>
-                        </ul></p>
+                            Ons aanbod</h1>
+                        <a href="{{ route('basiscursus')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+                            <img src="{{ asset('img/imkerscursusbasic.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Basiscursus</strong> </i>
+
+                        </a>
+                        <br>
+                        <a href="{{ route('bijscholing')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+                            <img src="{{ asset('img/ververscourse.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Ververscursus</strong> </i>
+
+                        </a>
                     </article><br><br>
 
-                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                        Wat te doen bij een bijenzwerm of hommelnest?</h1><br>
-                    <p style="color:black;">
-                        Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doen.
-                    </p>
-                    <a style="color:darkblue;" href="https://www.imkervereniging-oegstgeest.nl/bijenzwerm-hommelnest/">Lees dan verder</a>
+                    <h1>maak een keuze</h1><br>
+
                 </div>
             </article>
         </section>
