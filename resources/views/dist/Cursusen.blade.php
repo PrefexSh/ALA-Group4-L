@@ -45,7 +45,7 @@
     </style>
 
     <div class="content">
-        <bold style="text-align: center; font-size: 45px;">Cursusen</bold>
+        <bold style= "margin-left: 10vw;  text-align: center;  font-size: 45px;">cursusen</bold>
     </div>
     <!-- navbar content -->
     <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
