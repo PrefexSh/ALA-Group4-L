@@ -377,11 +377,22 @@
 
                     </div>
                     <article class="col-6">
-                        <h1 style="font-weight:bold; font-size: 3.3rem; margin-top: 0vh; margin-bottom: 0vh">Over imkershop
+                        <h1 style="font-weight:bold; font-size: 3.3rem; margin-top: 0vh; margin-bottom: 0vh">voor imkers
                         </h1>
 
-                        <p style="color:black" >De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Kaag en Braassem. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.<br><br>
-                        </p>
+                        <p style="color:black" > Voor Imker</p>
+                        <article>
+
+                            <p >Voor imkerbenodigdheden in de regio Zuid-Holland bestaat Het “Bijenhuis”-depot van de Imkersvereniging Leiden e.o. </p>
+
+
+
+                            <p style = "color: darkblue;"><a href="https://www.imkervereniging-oegstgeest.nl/wp-content/uploads/2019/02/Flyer_depot_v3.pdf">bijlage</a></p>
+
+
+
+
+                        </article><br><br>
                     </article>
                     <style>
                         .pic1{float: right;
@@ -403,19 +414,7 @@
 
 
                     </article>
-                    <article>
-                        <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
-                            Voor imkerbenodigdheden</h1>
-                        <p >Voor imkerbenodigdheden in de regio Zuid-Holland bestaat Het “Bijenhuis”-depot van de Imkersvereniging Leiden e.o. </p>
 
-
-
-                        <p style = "color: darkblue;"><a href="https://www.imkervereniging-oegstgeest.nl/wp-content/uploads/2019/02/Flyer_depot_v3.pdf">bijlage</a></p>
-
-
-
-                        <p><br></p>
-                    </article><br><br>
 
                     <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
                         bijenzwerm/hommelnest?</h1><br>
