@@ -423,6 +423,21 @@
                         Ziet u een bijenzwerm of hommelnest in de omgeving, of wilt u graag weten wat de verschillen zijn? Lees dan verder wat u kunt doen.
                     </p>
                     <a style="color:darkblue;" href="https://www.imkervereniging-oegstgeest.nl/bijenzwerm-hommelnest/">Lees dan verder</a>
+                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                        bijenzwerm/hommelnest?</h1><br>
+                    <p>Wat is een bijenzwerm en waarom gaan de bijen zwermen?<br>
+                        In de maanden mei en juni en soms ook nog wel in juli vermeerderen bijenvolken zich. Zij doen dit door een zogenaamde zwerm te vormen. Een flink deel van het volk, enkele duizenden bijen, gaat er vandoor met de koningin in hun midden. Ze gaan op zoek naar een nieuw onderkomen.<br>
+                        Voordat ze dit hebben gevonden maakt de zwerm een tussenstop. Ze vormen een klont bijen aan een boomtak, een hekje of een dakrand. Daar blijven ze een paar uur tot soms een paar dagen hangen. In de tussentijd gaan verkenners op zoek naar een nieuw ‘huis’.<br>
+                        Hoewel een bijenzwerm er dreigend uit kan zien, is ze niet gevaarlijk. Bijen zijn er niet op uit om u te steken. Ze zijn alleen op doorreis en hebben niets te verdedigen tenzij ze aangevallen worden.<br>
+                        Neem afstand tot een zwerm en laat het geheel met rust. Ziet u een bijenzwerm in Oegstgeest of de directe omgeving dan kunt u via <a style = "color:darkblue;" href="mailto:zwerm@imkervereniging-oegstgeest.nl">zwerm@imkervereniging-oegstgeest.nl</a> direct contact zoeken of stuur een foto en het adres via WhatsApp naar: <a style = "color:darkblue;" href="https://wa.link/62lwyh">06-52024488</a>. Zij kunnen met u een afspraak maken om de bijenzwerm op te halen.</p>
+                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                        bijenzwerm/hommelnest?</h1><br>
+                    <p>Hommels worden nog wel eens verward met wespen en bijen. Mensen zijn daarom nog weleens bang dat ze aangevallen worden door de hommel, om die reden willen ze dan ook geen hommelnest in de tuin. Ook rondvliegende hommels worden nog weleens gedood, uit angst voor steken. Een hommelnest verwijderen is eigenlijk niet nodig. Een hommel is niet agressief en het nest bestaat uit maximaal 150 exemplaren. Hommels zijn altijd druk bezig met het verzamelen van stuifmeel en steken bijna niet. Alleen als er direct gevaar dreigt voor een hommel kan zij steken. Een hommelnest kan je het beste lekker laten zitten, tenzij het nest in de weg zit zoals bij een voordeur van een huis. Als er veel menselijke activiteit is in de vliegroute van de hommels op en neer naar hun nest dan kan het verstandig zijn het hommelnest te laten verplaatsen door een imker. Zit uw hommelnest in de weg dan kunt u contact opnemen met de Imkers van Imkervereniging Oegstgeest.</p>
+
+                    <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
+                        Andere vliegende insecten die op bijen lijken</h1><br>
+
+                    <p>Sommige insecten lijken op bijen, om ze te leren onderscheiden kunt u kijken op de pagina van het&nbsp; <a style = "color:darkblue;" href="http://www.bijenlandschap.nl/" target="_blank" rel="noopener">bijenlandschap</a>.</p>
                 </div>
             </article>
         </section>
