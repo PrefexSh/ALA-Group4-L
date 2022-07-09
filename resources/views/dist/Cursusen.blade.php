@@ -388,17 +388,22 @@
                         <h1 class="" style="font-weight:bold; font-size: 2rem; margin-top: 3vh; margin-bottom: 1vh;">
                             Ons aanbod</h1>
                         <a href="{{ route('basiscursus')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-                            <img src="{{ asset('img/imkerscursusbasic.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Basiscursus</strong> </i>
+                            <img src="{{ asset('img/imkerscursusbasic.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Basis cursus</strong> </i>
 
                         </a>
                         <br>
                         <a href="{{ route('bijscholing')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-                            <img src="{{ asset('img/ververscourse.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Ververscursus</strong> </i>
+                            <img src="{{ asset('img/ververscourse.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">Ververs cursus</strong> </i>
+
+                        </a>
+                        <br>
+                        <a href="{{ route('cursusblog')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+                            <img src="{{ asset('img/beebolg.png') }}" class="w-40 fad text-xs mr-2"><br><strong class="capitalize ml-1 flex-1">cursus blog</strong> </i>
 
                         </a>
                     </article><br><br>
 
-                    <h1>maak een keuze</h1><br>
+
 
                 </div>
             </article>

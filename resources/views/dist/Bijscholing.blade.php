@@ -45,7 +45,7 @@
     </style>
 
     <div class="content">
-        <bold style="text-align: center; font-size: 45px;">Basiscursus </bold>
+        <bold style="text-align: center; font-size: 45px;">Ververs cursus </bold>
     </div>
     <!-- navbar content -->
     <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
@@ -339,7 +339,7 @@
         </a>
 
         <a href="{{ route('bijscholing')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
-            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">bijscholing</i>
+            <img src="{{ asset('img/dollbij.gif') }}" class="w-10 fad text-xs mr-2">Ververs cursus</i>
         </a>
 
         <a href="{{ route('contact')}}" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
@@ -353,8 +353,11 @@
     <style>
 
         .conbox{
+
             margin-left: 300px;
-            margin-top: -320px;
+            margin-top: -470px;
+
+
 
 
         }
@@ -397,19 +400,28 @@
                             geïnformeerd.</p>
                         </article>
                         <style>
-                            .pic1{float: right;}
+                            .pic1{float: right;
+                                margin-top: 0px;
+                                margin-right: 0px;
+                                width: 25%;
+                                height: 25%;
+
+                            }
 
 
                             .pic2{
 
                                 float: right;
-                                margin-top: 320px;
-                                margin-right: -400px;
-
+                                margin-top: 400px;
+                                margin-right: -500px;
+                                width: 25%;
+                                height: 25%;
 
 
                             }
+
                         </style>
+                        <!--plaatjes reageren niet op input moet hersteld worden met netjes maken van coden -->
                         <article class="col-6">
                             <div class="pic1" style="width: 25rem;">
                                 <img src="img/curses1.png" alt="Basiscursus 2013" width="500" height="600"
@@ -423,7 +435,7 @@
                                 <img src="img/curses2.png" alt="Basiscursus 2022" width="500" height="600"
                                      style="border-radius: 1vh;">
                                 <div class="card-body">
-                                    <p class="card-text text-center" style="color: grey">Basiscursus 2021</p>
+                                    <p class="card-text text-center" style="color: grey">Ververs cursus 2021</p>
                                 </div>
                             </div>
                         </article>
